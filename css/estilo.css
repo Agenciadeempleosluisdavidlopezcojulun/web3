@@ -1,0 +1,124 @@
+/*Estilo para todo el documento*/
+body{
+    background: #1EB0D7;
+    font-family: Tahoma;
+    font-size: 11px;
+    width: 1200px;
+    margin: auto;
+}
+/*Estilo para la imagen arriba*/
+#logo{
+    background: url(../img/logo.png) no-repeat right;
+    margin: 0 0px;
+    background-size: 60%;
+    padding: 25em 0em 5em 0em;
+    text-transform: uppercase;
+}
+/*Estilo para la etiqueta a incluida en H1*/
+#logo h1 a {
+    margin: 0em;
+    padding: 0;
+    letter-spacing: -.1em;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+/*Estilo para el subtitulo "BIENVENIDOS A NUESTRO SITIO WEB"*/
+#subtitulo {
+    padding: 0em;
+    margin-top: -1em;
+    font-size: 1.5em;
+    color: #BDF2FF;
+}
+/*Estilo para los elementos de la lista del menu*/
+#menu li {
+    display: inline-block;
+    margin-top: -2em;
+}
+/*Estilo para la etiqueta del Mnú de epciones*/
+#menu a {
+    display:block;
+    float: left;
+    margin-right: 0.12em;
+    padding: 1em 1.5em;
+    background: #178EAE;
+    box-shadow: inset 0px -2px 0px 0px rgba(0,0,0,0.25);
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #0C749C;
+    text-transform: uppercase;
+    font-size: .90em;
+    color: #FFFFFF;
+}
+/*Estilo para la seccion que mestra el contenido*/
+#seccion {
+    width: 1150px;
+    padding: 0px 10px;
+    background: #FFF;
+    height: 270px;
+}
+/*Estilo para la seccion los servicios*/
+#seccionServicios {
+    width: 1150px;
+    padding: 20px 40px;
+    background: #FFF;
+    height: 280px;
+}
+/*Estilo para la imagen que se encuentra dentro de la seccion*/
+#imagen {
+    margin: 0px;
+    width: 380px;
+    height: 200px;
+    text-align: center;
+}
+/*Estilo para el titulo dentro de la seccion*/
+#subtitulo2 {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 25px;
+    color: #039;
+}
+/*Estilo para el texto del lado derecho*/
+#ladoderecho {
+    margin: -5px 20px 0px 0px;
+    float: right;
+    width: 65%;
+    text-align: justify;
+    color: #666;
+}
+/*Estilo para el pie del documento*/
+#pie {
+    text-align: center;
+}
+/*Estilo para todo los parrafos del documento*/
+p{
+    font-family: Tahoma;
+    font-size: 11pt;
+}
+/*Estilo para el texto mostrado en el lado izquierdo NOSOTROS*/
+#ladoizquierdo {
+    margin: -5px 20px 0px 0px;
+    float: left;
+    width: 65%;
+    font-size: 11px;
+    text-align: justify;
+    color: #666;
+}
+/**/
+#columna {
+    margin: -5px 20px 0px 0px;
+    float: left;
+    width: 30%;
+    color: #666;
+}
+#seccionextensa {
+    width: 1050px;
+    padding: 20px 40px;
+    background: #FFF;
+    height: auto;
+}
+#centrado {
+    text-align: center;
+}
+#lista li {
+    font-size: 11px;
+} 
